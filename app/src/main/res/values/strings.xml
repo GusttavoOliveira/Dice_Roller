@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Dice Roller</string>
+    <string name="feliz_aniversario_luiz">Feliz Aniversário Luiz</string>
+    <string name="roll_label">Roll</string>
+    <string name="dice_rolled">Dice Rolled!</string>
+    <string name="roll_the_dice">Roll the dice</string>
+</resources>
