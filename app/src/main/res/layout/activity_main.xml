@@ -25,4 +25,38 @@
         android:layout_marginTop="30dp"
         android:text="@string/roll_label" />
 
+    <Button
+        android:id="@+id/buttonSizeSix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rollButton"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:layout_marginTop="30dp"
+        android:text="@string/d6" />
+
+    <Button
+        android:id="@+id/buttonSizeTen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/buttonSizeSix"
+        android:layout_below="@id/rollButton"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:layout_marginTop="30dp"
+        android:text="@string/d10" />
+
+    <Button
+        android:id="@+id/buttonSizeTwenty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@id/buttonSizeSix"
+        android:layout_below="@id/rollButton"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:layout_marginTop="30dp"
+        android:text="@string/d20" />
+
 </RelativeLayout>
