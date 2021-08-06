@@ -7,6 +7,7 @@ android {
     compileSdk 31
 
     defaultConfig {
+        vectorDrawables.useSupportLibrary = "true"
         applicationId "com.luizgusttavo.diceroller"
         minSdk 21
         targetSdk 31
